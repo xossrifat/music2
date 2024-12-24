@@ -3,7 +3,7 @@ require("dotenv").config();
 module.exports = {
     token: process.env.TOKEN || "",
     clientID: process.env.CLIENT_ID || "1320840215572512878", 
-    prefix: process.env.PREFIX || "/", 
+    prefix: process.env.PREFIX || "&", 
     ownerID: process.env.OWNER_ID || "1304477027390455838",
     guildID: process.env.GUILD_ID || "1315649463028813834",
     SpotifyID: process.env.SPOTIFY_ID || "aece5b4d7d27426ebef592a75bd43a2c",
